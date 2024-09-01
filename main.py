@@ -1,6 +1,5 @@
 import requests
 import pandas as pd
-import json
 from datetime import datetime
 
 # fetch data from houston transtar
@@ -47,4 +46,4 @@ if __name__ == "__main__":
     #print(df)
 
     df = preprocess_data(df)
-    print(df)
+    #print(df)
